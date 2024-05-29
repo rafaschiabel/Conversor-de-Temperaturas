@@ -20,7 +20,7 @@ def converter(num_string):
 # Verificador de números
 def verifica_num(value):
     try:
-        float(value)
+        float(value) # tenta converter em Float
         return True
     except ValueError:
         return False
